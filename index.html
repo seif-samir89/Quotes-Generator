@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <!-- File CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+  </head>
+  <body>
+    <h1>Random Quotes Generator</h1>
+
+    <span class="quote-id"> 0 </span>
+    <!-- Start Quotes  -->
+    <div class="quotes">
+      <div class="copy-btn" id="btn-copy"><i class="bi bi-copy"></i></div>
+      <div class="quote-display">Quote Will Appear Here</div>
+      <div class="buttons">
+        <button class="generate">
+          Generate Quote<i class="bi bi-pause-circle"></i>
+        </button>
+        <button class="auto">Auto Generate<i class="bi bi-shuffle"></i></button>
+        <button class="stop">
+          Stop Generate<i class="bi bi-stop-circle"></i>
+        </button>
+      </div>
+      <!-- End Quotes  -->
+      <!--Start Downlaod Quotes  -->
+      <span id="download-btn">
+        <i class="bi bi-cloud-arrow-down"></i>
+      </span>
+    </div>
+    <img class="quote-image" loading="lazy" src=" " />
+    <div class="auto-status"></div>
+    <!--End Downlaod Quotes  -->
+    <!-- File JS  -->
+    <script src="main.js"></script>
+  </body>
+</html>
