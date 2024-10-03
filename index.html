@@ -21,12 +21,19 @@
     <link rel="icon" type="image/x-icon" href="img/icon.png" />
   </head>
   <body>
-    <h1>Random Quotes Generator </h1>
+    <!-- Start Loading  -->
+    <div class="loading">
+      <div class="lds-dual-ring"></div>
+    </div>
+    <!-- End Loading  -->
+    <h1>Random Quotes Generator</h1>
 
     <span class="quote-id"> 0 </span>
     <!-- Start Quotes  -->
     <div class="quotes">
-      <div class="copy-btn" id="btn-copy"><i class="bi bi-copy"></i></div>
+      <div class="copy-btn" id="btn-copy">
+        <i class="bi bi-clipboard-check"></i>
+      </div>
       <div class="quote-display">Quote Will Appear Here</div>
       <div class="buttons">
         <button class="generate">
@@ -46,6 +53,7 @@
     <img class="quote-image" loading="lazy" src=" " />
     <div class="auto-status"></div>
     <!--End Downlaod Quotes  -->
+
     <!-- File JS  -->
     <script src="main.js"></script>
   </body>
