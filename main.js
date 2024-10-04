@@ -28,7 +28,7 @@ async function generateQuote() {
 }
 
 function startAutoPlay() {
-  intervalId = setInterval(generateQuote, 2000);
+  intervalId = setInterval(generateQuote, 5000);
   autoStatus.innerHTML = " ";
 }
 
@@ -37,7 +37,6 @@ function stopAutoPlay() {
   autoStatus.innerHTML = " ";
 }
 // Copybtn
-
 function copyText() {
   let text = quoteDiv.innerText;
   navigator.clipboard
