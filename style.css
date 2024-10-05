@@ -166,7 +166,7 @@ h1 {
   .bi-cloud-arrow-down {
     display: block;
     color: #ffff;
-    margin-right: 80%;
+    right: 1px;
     position: absolute;
     font-size: 30px;
     top: 4px;
@@ -291,7 +291,7 @@ h1 {
     width: 80px;
     height: 25px;
   }
-  div #btn-copy i {
+  #btn-copy i {
     display: block;
     color: #ffff;
     margin-left: 85%;
@@ -300,7 +300,7 @@ h1 {
     top: 12px;
     cursor: pointer;
   }
-  div #btn-copy:hover i {
+  #btn-copy:hover i {
     color: red;
   }
   .quote-display {
@@ -344,14 +344,14 @@ h1 {
     height: 20px;
     font-size: 12px;
   }
-  div #btn-copy i {
+  #btn-copy i {
     color: #ffff;
-    margin-left: 85%;
+    margin-left: 40%;
     font-size: 25px;
-    top: 12px;
+    top: 2px;
     cursor: pointer;
   }
-  div #btn-copy:hover i {
+  #btn-copy:hover i {
     color: red;
   }
   .quote-display {
